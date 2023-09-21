@@ -41,4 +41,4 @@ async def delete_todo(todo_id: int):
         if todo.id == todo_id:
             todos.remove(todo)
             return {"message": "todo has been deleted"}
-    return {"message": "no todos found" }
+    return {"message": "no todos found !" }
